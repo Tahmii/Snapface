@@ -1,0 +1,28 @@
+{
+  "Pika":{
+    "title":"Pikachut",
+    "description":"Le roi des pokemon electrique",
+    "imageUrl":"https://static.posters.cz/image/1300/affiches-et-posters/pokemon-pikachu-neon-i71936.jpg",
+    "localisation": "Marseille",
+    "snaps":178
+  },
+  "Dracofeu":{
+    "title":"Dracofeu",
+    "description":"Le roi des pokemon de feu",
+    "imageUrl":"https://www.breakflip.com/uploads2/Misty/2020/Pokemon-GO/battre-m%C3%A9ga-dracaufeu-y-pokemon-go.jpg",
+    "localisation":"Toulouse",
+    "snaps":145
+  },
+  "Ronflex":{
+    "title":"Ronflex",
+    "description":"Le roi du someil",
+    "imageUrl":"https://www.pokemontrash.com/images/news/1534957742044.jpg",
+    "snaps":1445
+  },
+  "Carapuce":{
+    "title":"Carapuce",
+    "description":"Le roi de l'eau",
+    "imageUrl":"https://www.pokepedia.fr/images/thumb/3/39/Carapuce_de_Sacha.png/300px-Carapuce_de_Sacha.png",
+    "snaps":7
+  }
+}
