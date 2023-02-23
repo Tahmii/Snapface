@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 import { FaceSnapComponent } from './Component/face-snap/face-snap.component';
 import { registerLocaleData } from '@angular/common';
 import * as fr from '@angular/common/locales/fr';
+import { FaceSnapListComponent } from './Component/face-snap-list/face-snap-list.component';
+import { HeaderComponent } from './Component/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FaceSnapComponent,
+    FaceSnapListComponent,
+    HeaderComponent,
 
   ],
   imports: [
