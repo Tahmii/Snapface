@@ -12,6 +12,7 @@ import { HeaderComponent } from './Component/header/header.component';
 import { LandingPageComponent } from './Page/landing-page/landing-page.component';
 import { SingleFaceSnapComponent } from './Component/single-face-snap/single-face-snap.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NewFaceSnapComponent } from './Page/new-face-snap/new-face-snap.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     LandingPageComponent,
     SingleFaceSnapComponent,
+    NewFaceSnapComponent,
 
   ],
   imports: [

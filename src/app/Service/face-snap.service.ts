@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 import { FaceSnap } from '../Models/face-snap.model';
 
 @Injectable({
@@ -38,6 +39,16 @@ export class FaceSnapService {
     }
 
   }
+
+  addFaceSnap(formValue: { title: string, description: string, imageUrl: string, location?: string }) {
+    const faceSnap: FaceSnap = {
+        ...formValue,
+        snaps: 0,
+        createDate: new Date(),
+        id: this.faceSnaps[this.faceSnaps.length - 1].id + 1
+    };
+    this.faceSnaps.push(faceSnap);
+}
 
 
   faceSnaps : FaceSnap[] = [
