@@ -11,7 +11,7 @@
 
   <p>{{faceSnap.description}}</p>
 
-  <p *ngIf="faceSnap.localisation is true">Localisation : {{faceSnap.localisation}}</p>
+  <p *ngIf="faceSnap.localisation? faceSnap.localisation : null">Localisation : {{faceSnap.localisation}}</p>
 
   <p>
 
